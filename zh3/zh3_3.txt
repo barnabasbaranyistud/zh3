@@ -1,1 +1,0 @@
-db.movies.aggregate([{$match: {year: {$gt: 150}}}, {$group: {_id: "$rated", avg: {$avg: "$runtime"}}}])
