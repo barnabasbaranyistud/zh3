@@ -1,5 +1,0 @@
-match(p:Person)-[:DIRECTED]->(m:Movie)
-where m.released < 2000
-with p, count(*) as `db`
-where db > 1
-return p.name, db
