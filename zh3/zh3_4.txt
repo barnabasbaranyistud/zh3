@@ -1,4 +1,0 @@
-match(p:Person)-[:ACTED_IN]->(m:Movie)
-where m.released > 1970 or m.title CONTAINS 'Love'
-return p.name as `Színész neve`, m.title as `Film címe`
-order by m.title DESC
