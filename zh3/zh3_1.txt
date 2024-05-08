@@ -1,0 +1,5 @@
+Filter: {"genres.0": "Short", "year": {"$gte": 1945, "$lte": 1970}}
+
+Project: {title: 1, year: 1}
+
+Sort: {year: 1, title: 1}

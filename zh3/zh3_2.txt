@@ -1,0 +1,1 @@
+db.users.find({email: /.com/}, {name: 1, email: 1})
